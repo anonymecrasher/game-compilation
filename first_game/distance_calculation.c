@@ -1,6 +1,6 @@
 #include "distance_calculation.h"
 
-coords vector(coords point1, coords point2){
+coords vector(coords point1, coords point2){//send vector coordonate between two point
     coords n = {point1.x - point2.x, point1.y - point2.y, point1.z - point2.z };
     return n;
 }
